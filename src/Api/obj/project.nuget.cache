@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "rDaxGBfZ+6MY/4g+jKXyyV2BrRALM1eiFMWKdoz6cPQBlMktUkQH3IaoxdcGjNlRH13Kd0/Z1VYL87HrXhYTDA==",
+  "success": true,
+  "projectFilePath": "C:\\TestProjects\\river-books\\src\\Api\\Api.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\mirka\\.nuget\\packages\\fastendpoints\\5.24.0\\fastendpoints.5.24.0.nupkg.sha512",
+    "C:\\Users\\mirka\\.nuget\\packages\\fastendpoints.attributes\\5.24.0\\fastendpoints.attributes.5.24.0.nupkg.sha512",
+    "C:\\Users\\mirka\\.nuget\\packages\\fastendpoints.messaging.core\\5.24.0\\fastendpoints.messaging.core.5.24.0.nupkg.sha512",
+    "C:\\Users\\mirka\\.nuget\\packages\\fluentvalidation\\11.9.0\\fluentvalidation.11.9.0.nupkg.sha512"
+  ],
+  "logs": []
+}
