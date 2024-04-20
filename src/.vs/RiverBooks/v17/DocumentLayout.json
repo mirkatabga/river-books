@@ -3,20 +3,16 @@
   "WorkspaceRootPath": "C:\\TestProjects\\river-books\\src\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{3E3BBB54-6179-469D-AD85-E3C87174F2DF}|Books\\Books.csproj|c:\\testprojects\\river-books\\src\\books\\booksservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E3BBB54-6179-469D-AD85-E3C87174F2DF}|Books\\Books.csproj|solutionrelative:books\\booksservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9CE706A2-C5DF-4972-BD46-E2FDA637DC2D}|Api\\Api.csproj|c:\\testprojects\\river-books\\src\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9CE706A2-C5DF-4972-BD46-E2FDA637DC2D}|Api\\Api.csproj|solutionrelative:api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3E3BBB54-6179-469D-AD85-E3C87174F2DF}|Books\\Books.csproj|c:\\testprojects\\river-books\\src\\books\\fetchbooksendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3E3BBB54-6179-469D-AD85-E3C87174F2DF}|Books\\Books.csproj|solutionrelative:books\\fetchbooksendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3E3BBB54-6179-469D-AD85-E3C87174F2DF}|Books\\Books.csproj|c:\\testprojects\\river-books\\src\\books\\booksservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E3BBB54-6179-469D-AD85-E3C87174F2DF}|Books\\Books.csproj|solutionrelative:books\\booksservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9CE706A2-C5DF-4972-BD46-E2FDA637DC2D}|Api\\Api.csproj|c:\\testprojects\\river-books\\src\\api\\api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
-      "RelativeMoniker": "D:0:0:{9CE706A2-C5DF-4972-BD46-E2FDA637DC2D}|Api\\Api.csproj|solutionrelative:api\\api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3E3BBB54-6179-469D-AD85-E3C87174F2DF}|Books\\Books.csproj|c:\\testprojects\\river-books\\src\\books\\fetchbooksresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,35 +26,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Api.http",
-              "DocumentMoniker": "C:\\TestProjects\\river-books\\src\\Api\\Api.http",
-              "RelativeDocumentMoniker": "Api\\Api.http",
-              "ToolTip": "C:\\TestProjects\\river-books\\src\\Api\\Api.http",
-              "RelativeToolTip": "Api\\Api.http",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2024-04-20T07:46:11.247Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "BooksService.cs",
               "DocumentMoniker": "C:\\TestProjects\\river-books\\src\\Books\\BooksService.cs",
               "RelativeDocumentMoniker": "Books\\BooksService.cs",
               "ToolTip": "C:\\TestProjects\\river-books\\src\\Books\\BooksService.cs",
               "RelativeToolTip": "Books\\BooksService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAuAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-20T07:44:19.541Z"
+              "WhenOpened": "2024-04-20T07:44:19.541Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "FetchBooksResponse.cs",
               "DocumentMoniker": "C:\\TestProjects\\river-books\\src\\Books\\FetchBooksResponse.cs",
               "RelativeDocumentMoniker": "Books\\FetchBooksResponse.cs",
@@ -70,7 +55,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "FetchBooksEndpoint.cs",
               "DocumentMoniker": "C:\\TestProjects\\river-books\\src\\Books\\FetchBooksEndpoint.cs",
               "RelativeDocumentMoniker": "Books\\FetchBooksEndpoint.cs",
@@ -82,7 +67,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\TestProjects\\river-books\\src\\Api\\Program.cs",
               "RelativeDocumentMoniker": "Api\\Program.cs",
