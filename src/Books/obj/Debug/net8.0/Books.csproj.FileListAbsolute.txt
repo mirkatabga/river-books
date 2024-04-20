@@ -10,3 +10,15 @@ C:\TestProjects\RiverBooks\src\Books\obj\Debug\net8.0\refint\Books.dll
 C:\TestProjects\RiverBooks\src\Books\obj\Debug\net8.0\Books.pdb
 C:\TestProjects\RiverBooks\src\Books\obj\Debug\net8.0\ref\Books.dll
 C:\TestProjects\RiverBooks\src\Books\obj\Debug\net8.0\Books.csproj.AssemblyReference.cache
+C:\TestProjects\river-books\src\Books\bin\Debug\net8.0\Books.deps.json
+C:\TestProjects\river-books\src\Books\bin\Debug\net8.0\Books.dll
+C:\TestProjects\river-books\src\Books\bin\Debug\net8.0\Books.pdb
+C:\TestProjects\river-books\src\Books\obj\Debug\net8.0\Books.csproj.AssemblyReference.cache
+C:\TestProjects\river-books\src\Books\obj\Debug\net8.0\Books.GeneratedMSBuildEditorConfig.editorconfig
+C:\TestProjects\river-books\src\Books\obj\Debug\net8.0\Books.AssemblyInfoInputs.cache
+C:\TestProjects\river-books\src\Books\obj\Debug\net8.0\Books.AssemblyInfo.cs
+C:\TestProjects\river-books\src\Books\obj\Debug\net8.0\Books.csproj.CoreCompileInputs.cache
+C:\TestProjects\river-books\src\Books\obj\Debug\net8.0\Books.dll
+C:\TestProjects\river-books\src\Books\obj\Debug\net8.0\refint\Books.dll
+C:\TestProjects\river-books\src\Books\obj\Debug\net8.0\Books.pdb
+C:\TestProjects\river-books\src\Books\obj\Debug\net8.0\ref\Books.dll
