@@ -22,3 +22,4 @@ C:\TestProjects\river-books\src\Books\obj\Debug\net8.0\Books.dll
 C:\TestProjects\river-books\src\Books\obj\Debug\net8.0\refint\Books.dll
 C:\TestProjects\river-books\src\Books\obj\Debug\net8.0\Books.pdb
 C:\TestProjects\river-books\src\Books\obj\Debug\net8.0\ref\Books.dll
+C:\TestProjects\river-books\src\Books\obj\Debug\net8.0\Books.sourcelink.json

@@ -66,3 +66,4 @@ C:\TestProjects\river-books\src\Api\obj\Debug\net8.0\refint\Api.dll
 C:\TestProjects\river-books\src\Api\obj\Debug\net8.0\Api.pdb
 C:\TestProjects\river-books\src\Api\obj\Debug\net8.0\Api.genruntimeconfig.cache
 C:\TestProjects\river-books\src\Api\obj\Debug\net8.0\ref\Api.dll
+C:\TestProjects\river-books\src\Api\obj\Debug\net8.0\Api.sourcelink.json
