@@ -2,6 +2,19 @@
   "version": 3,
   "targets": {
     "net8.0": {
+      "Ardalis.GuardClauses/4.5.0": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/Ardalis.GuardClauses.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/Ardalis.GuardClauses.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "FastEndpoints/5.24.0": {
         "type": "package",
         "dependencies": {
@@ -65,6 +78,29 @@
     }
   },
   "libraries": {
+    "Ardalis.GuardClauses/4.5.0": {
+      "sha512": "9ajMCMD3gIWUsVb//ftJFsFm+TDvP3y05dVC1S9ANLP4Bo7V2xbCeQbTVomXR0mTYkX4mX6Lp3SPtdcKag4rZg==",
+      "type": "package",
+      "path": "ardalis.guardclauses/4.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "README.md",
+        "ardalis.guardclauses.4.5.0.nupkg.sha512",
+        "ardalis.guardclauses.nuspec",
+        "icon.png",
+        "lib/net7.0/Ardalis.GuardClauses.dll",
+        "lib/net7.0/Ardalis.GuardClauses.pdb",
+        "lib/net7.0/Ardalis.GuardClauses.xml",
+        "lib/netstandard2.0/Ardalis.GuardClauses.dll",
+        "lib/netstandard2.0/Ardalis.GuardClauses.pdb",
+        "lib/netstandard2.0/Ardalis.GuardClauses.xml",
+        "lib/netstandard2.1/Ardalis.GuardClauses.dll",
+        "lib/netstandard2.1/Ardalis.GuardClauses.pdb",
+        "lib/netstandard2.1/Ardalis.GuardClauses.xml"
+      ]
+    },
     "FastEndpoints/5.24.0": {
       "sha512": "pxhIXkLaA7dc6RDHQ/4eaGMULtDtYAv/lujkvgH05atrgaq4l0kjpFvZoP7abPTa9lT4hdZu5SjvO4U7sdG1MQ==",
       "type": "package",
@@ -140,6 +176,7 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "Ardalis.GuardClauses >= 4.5.0",
       "FastEndpoints >= 5.24.0"
     ]
   },
@@ -188,6 +225,10 @@
       "net8.0": {
         "targetAlias": "net8.0",
         "dependencies": {
+          "Ardalis.GuardClauses": {
+            "target": "Package",
+            "version": "[4.5.0, )"
+          },
           "FastEndpoints": {
             "target": "Package",
             "version": "[5.24.0, )"

@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "skrnCfODwgpmi7rWSwHaBAT/bOelAST5V/Ql8wtCqZx9aoM4KeTOiRQvMvI4EM5//4LM4k0g/cdO9gnhmT2aEg==",
+  "dgSpecHash": "aKJ2rb0UhziPqlvBzzumnhM1rgJ9XlZuf7WimrwAbQR3UiJ9LoE0mgXT4CRTDGDpEvF1USVLM0emwQ0F5w7Fbg==",
   "success": true,
   "projectFilePath": "C:\\TestProjects\\river-books\\src\\Api\\Api.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\mirka\\.nuget\\packages\\ardalis.guardclauses\\4.5.0\\ardalis.guardclauses.4.5.0.nupkg.sha512",
     "C:\\Users\\mirka\\.nuget\\packages\\fastendpoints\\5.24.0\\fastendpoints.5.24.0.nupkg.sha512",
     "C:\\Users\\mirka\\.nuget\\packages\\fastendpoints.attributes\\5.24.0\\fastendpoints.attributes.5.24.0.nupkg.sha512",
     "C:\\Users\\mirka\\.nuget\\packages\\fastendpoints.messaging.core\\5.24.0\\fastendpoints.messaging.core.5.24.0.nupkg.sha512",
