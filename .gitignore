@@ -396,3 +396,6 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+/src/.vs/ProjectEvaluation/riverbooks.metadata.v7.bin
+/src/.vs/ProjectEvaluation/riverbooks.projects.v7.bin
+/src/.vs/RiverBooks/v17/.futdcache.v2
