@@ -1,6 +1,6 @@
 ﻿using Ardalis.GuardClauses;
 
-namespace Books;
+namespace Books.Domain;
 
 internal class Book(Guid id, string title, string author, decimal price)
 {

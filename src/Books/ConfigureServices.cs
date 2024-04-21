@@ -1,12 +1,12 @@
-﻿using Microsoft.Extensions.DependencyInjection;
+﻿using Books.Application;
+using Microsoft.Extensions.DependencyInjection;
 
-namespace Books
+namespace Books;
+
+public static class ConfigureServices
 {
-    public static class ConfigureServices
-    {
-        public static void AddBooksModule(this IServiceCollection services)
-        {
-            services.AddScoped<IBooksService, BooksService>();
-        }
-    }
+  public static void AddBooksModule(this IServiceCollection services)
+  {
+    services.AddScoped<IBooksService, BooksService>();
+  }
 }
