@@ -400,7 +400,6 @@ FodyWeavers.xsd
 /src/.vs/ProjectEvaluation/riverbooks.projects.v7.bin
 /src/.vs/RiverBooks/v17/.futdcache.v2
 /src/.vs/RiverBooks/v17/.suo
-/.gitignore
 /src/.vs/RiverBooks/v17/DocumentLayout.json
 /src/Api/bin/Debug/net8.0/Api.dll
 /src/Api/bin/Debug/net8.0/Api.exe
@@ -424,3 +423,4 @@ FodyWeavers.xsd
 /src/Books/obj/Debug/net8.0/Books.dll
 /src/Books/obj/Debug/net8.0/Books.pdb
 /src/.vs/RiverBooks/DesignTimeBuild/.dtbcache.v2
+/src/Books/obj/Debug/net8.0/Books.csproj.CoreCompileInputs.cache
