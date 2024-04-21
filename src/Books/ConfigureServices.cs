@@ -1,6 +1,6 @@
 ﻿using Books.Application;
 using Books.Domain;
-using Books.Infrastructure;
+using Books.Infrastructure.Persistence;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;

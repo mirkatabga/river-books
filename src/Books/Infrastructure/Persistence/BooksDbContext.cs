@@ -3,7 +3,7 @@ using Books.Domain;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
-namespace Books.Infrastructure;
+namespace Books.Infrastructure.Persistence;
 
 internal class BooksDbContext(DbContextOptions options) : DbContext(options)
 {
@@ -41,20 +41,17 @@ internal class BooksConfiguration : IEntityTypeConfiguration<Book>
 
     public void Configure(EntityTypeBuilder<Book> builder)
     {
-        builder
-            .Property(book => book.Title)
+        builder.HasKey(book => book.Id);
+
+        builder.Property(book => book.Title)
             .HasMaxLength(TITLE_MAX_LENGHT)
             .IsRequired();
 
-        builder
-            .Property(book => book.Author)
+        builder.Property(book => book.Author)
             .HasMaxLength(FULL_NAME_MAX_LENGHT)
             .IsRequired();
 
-        builder
-            .Property(book => book.Price)
-            .IsRequired();
-
+        builder.Property(book => book.Price).IsRequired();
         builder.HasData(GetSampleBookData());
     }
 

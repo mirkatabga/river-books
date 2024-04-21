@@ -1,7 +1,7 @@
 ﻿using Books.Domain;
 using Microsoft.EntityFrameworkCore;
 
-namespace Books.Infrastructure;
+namespace Books.Infrastructure.Persistence;
 
 internal class BookRepository(BooksDbContext dbContext) : IBookRepository
 {
