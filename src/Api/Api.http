@@ -17,3 +17,6 @@ Content-Type: application/json
     "author": "Anna Lembke",
     "price": 18.42
 }
+
+###
+DELETE {{BASE_URL}}/books/7083A0F1-57D0-465B-9B3A-FD942BAD5D55
