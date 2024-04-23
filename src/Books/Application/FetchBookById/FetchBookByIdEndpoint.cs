@@ -1,5 +1,4 @@
-﻿using Books.Domain.Exceptions;
-using FastEndpoints;
+﻿using FastEndpoints;
 
 namespace Books.Application.FetchBookById;
 
@@ -9,7 +8,7 @@ internal class FetchBookByIdEndpoint(IBooksService booksService) : Endpoint<Fetc
 
     public override void Configure()
     {
-        Get("/books/{id:Guid}/book");
+        Get("/books/{id:Guid}");
         AllowAnonymous();
     }
 

@@ -24,12 +24,13 @@ internal class BooksService(IBookRepository bookRepository) : IBooksService
           new BookDto(book.Id, book.Title, book.Author, book.Price));
     }
 
-    public async Task CreateAsync(BookDto book)
+    public async Task<BookDto> CreateAsync(CreateBookDto book)
     {
-        await _bookRepository.AddAsync(
-          new Book(Guid.NewGuid(), book.Title, book.Author, book.Price));
-
+        var bookEntity = new Book(Guid.NewGuid(), book.Title, book.Author, book.Price);
+        await _bookRepository.AddAsync(bookEntity);
         await _bookRepository.SaveChangesAsync();
+
+        return new BookDto(bookEntity.Id, bookEntity.Title, bookEntity.Author, bookEntity.Price);
     }
 
     public async Task UpdatePriceAsync(Guid id, decimal price)

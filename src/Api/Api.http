@@ -1,4 +1,19 @@
-@Api_HostAddress = http://localhost:5251
+@BASE_URL = http://localhost:5251
+@BOOK_RED_RISING_ID = EE8C61BF-BABF-46D1-9A63-C640CDF9B52D
 
-GET {{Api_HostAddress}}/books/
+GET {{BASE_URL}}/books/
 Accept: application/json
+
+###
+GET {{BASE_URL}}/books/{{BOOK_RED_RISING_ID}}
+
+###
+POST {{BASE_URL}}/books
+Accept: application/json
+Content-Type: application/json
+
+{
+    "title": "Dopamine Nation: Finding Balance in the Age of Indulgence",
+    "author": "Anna Lembke",
+    "price": 18.42
+}
