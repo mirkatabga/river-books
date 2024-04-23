@@ -15,14 +15,7 @@ internal class FetchBookByIdEndpoint(IBooksService booksService) : Endpoint<Fetc
 
     public override async Task HandleAsync(FetchBookByIdRequest request, CancellationToken ct)
     {
-        try
-        {
-            var book = await _booksService.FetchByIdAsync(request.Id);
-            await SendAsync(book, cancellation: ct);
-        }
-        catch (NotFoundException)
-        {
-            await SendNotFoundAsync(ct);
-        }
+        var book = await _booksService.FetchByIdAsync(request.Id);
+        await SendAsync(book, cancellation: ct);
     }
 }

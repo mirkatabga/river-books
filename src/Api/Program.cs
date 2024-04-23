@@ -6,6 +6,7 @@ builder.Services.AddFastEndpoints();
 builder.Services.AddBooksModule(builder.Configuration);
 
 var app = builder.Build();
+app.UseExceptionHandler(opt => { });
 app.UseHttpsRedirection();
 app.UseFastEndpoints();
 

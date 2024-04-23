@@ -14,6 +14,7 @@ public static class ConfigureServices
         IConfigurationManager configurationManager)
     {
         var connectrionString = configurationManager.GetConnectionString("BooksConnectionString");
+        services.AddExceptionHandler<BooksExceptionHandler>();
         services.AddDbContext<BooksDbContext>(options => options.UseSqlServer(connectrionString));
         services.AddScoped<IBookRepository, BookRepository>();
         services.AddScoped<IBooksService, BooksService>();
