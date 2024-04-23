@@ -1,3 +1,3 @@
-﻿namespace Books.Application.FetchBookById;
+﻿namespace Books.Application;
 
 internal record FetchBookByIdRequest(Guid Id);

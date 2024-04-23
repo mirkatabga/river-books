@@ -20,3 +20,13 @@ Content-Type: application/json
 
 ###
 DELETE {{BASE_URL}}/books/7083A0F1-57D0-465B-9B3A-FD942BAD5D55
+Accept: application/json
+
+###
+PATCH {{BASE_URL}}/books/{{BOOK_RED_RISING_ID}}/price
+Accept: application/json
+Content-Type: application/json
+
+{
+    "price": 10.42
+}

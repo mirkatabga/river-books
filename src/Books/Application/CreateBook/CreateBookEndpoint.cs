@@ -1,6 +1,6 @@
 ﻿using FastEndpoints;
 
-namespace Books.Application.FetchBookById;
+namespace Books.Application;
 
 internal class CreateBookEndpoint(IBooksService booksService) : Endpoint<CreateBookRequest, BookDto>
 {

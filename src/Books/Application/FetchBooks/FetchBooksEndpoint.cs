@@ -1,6 +1,6 @@
 ﻿using FastEndpoints;
 
-namespace Books.Application.FetchBooks;
+namespace Books.Application;
 
 internal class FetchBooksEndpoint(IBooksService booksService) : EndpointWithoutRequest<FetchBooksResponse>
 {

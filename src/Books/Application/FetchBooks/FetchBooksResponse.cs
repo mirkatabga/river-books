@@ -1,3 +1,3 @@
-﻿namespace Books.Application.FetchBooks;
+﻿namespace Books.Application;
 
 internal record FetchBooksResponse(IEnumerable<BookDto> Books);

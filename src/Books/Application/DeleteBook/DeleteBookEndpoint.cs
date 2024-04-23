@@ -1,6 +1,6 @@
 ﻿using FastEndpoints;
 
-namespace Books.Application.DeleteBook;
+namespace Books.Application;
 
 internal class DeleteBookEndpoint(IBooksService booksService) : Endpoint<DeleteBookRequest>
 {

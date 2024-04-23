@@ -1,3 +1,3 @@
-﻿namespace Books.Application.DeleteBook;
+﻿namespace Books.Application;
 
 internal record DeleteBookRequest(Guid Id);
